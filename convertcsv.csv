@@ -3,15 +3,15 @@ low,user.mfa.factor.activate,abc123,1,2024-03-15T08:00:00,SUCCESS,,12001,user,Jo
 medium,user.session.start,def456,2,2024-03-15T08:10:01,SUCCESS,,1001,user,John Doe,john.doe,192.168.1.2,USA,Los Angeles,90001,-118.2437,34.0522,def456,login
 high,user.account.reset_password,ghi789,3,2024-03-15T08:20:00,SUCCESS,,1001,user,Serg,john.doe,192.168.1.3,USA,Los Angeles,90001,-118.2437,34.0522,ghi789,password_reset
 low,user.mfa.factor.activate,jkl012,4,2024-03-15T08:10:02,SUCCESS,,1001,user,John Doe,john.doe,192.168.1.2,USA,Los Angeles,90001,-118.2437,34.0522,jkl012,login
-medium,device.user.add,mno345,5,2024-03-15T08:40:00,SUCCESS,,1001,user,Sack,john.doe,192.168.2.2,USA,Los Angeles,90001,-118.2437,34.0522,mno345,device_addition
-high,security.threat.detected,e334,3,2024-03,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
-high,security.threat.detected,123edd,3,2024-03,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
-high,security.threat.detected,sse33,3,2024-03,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
-high,security.threat.detected,2d6,3,2024-03,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
-high,security.threat.detected,899jjj,3,2024-03,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
-high,security.threat.detected,uhuh90,3,2024-03,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
-high,security.threat.detected,hbjh8,3,2024-03,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
-high,security.threat.detected,vvuiu9i0,3,2024-03,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
+low,user.mfa.factor.activate,jkl012,4,2024-03-15T08:10:02,SUCCESS,,1001,user,John Doe,john.doe,192.168.1.2,USA,Los Angeles,90001,-118.2437,34.0522,jkl012,login
+low,user.mfa.factor.deactivate,jkl012,4,2024-03-15T08:10:09,SUCCESS,,1001,user,John Doe,john.doe,192.168.1.2,USA,Los Angeles,90001,-118.2437,34.0522,jkl012,login
+high,security.threat.detected,123edd,3,2024-03-15T08:10:11,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
+high,security.threat.detected,sse33,3,2024-03-15T08:10:11,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
+high,security.threat.detected,2d6,3,2024-03-15T08:10:12,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
+high,security.threat.detected,899jjj,3,2024-03-15T08:10:13,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
+high,security.threat.detected,uhuh90,3,2024-03-15T08:10:14,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
+high,security.threat.detected,hbjh8,3,2024-03-15T08:10:15,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
+high,security.threat.detected,vvuiu9i0,3,2024-03-15T08:10:16,DENY,Password Spray,123,USER,Jikson,Jikson,192.234.5.6,USA,Los Angeles90002,,-118,,,
 medium,user.session.start,def456,2,2024-03-15T08:10:04,SUCCESS,,1001,user,John Doe,john.doe,192.168.1.2,USA,Los Angeles,90001,-118.2437,34.0522,def456,login
 medium,user.session.start,def456,2,2024-03-15T08:10:04,SUCCESS,,1001,user,John Doe,john.doe,192.168.1.2,USA,Los Angeles,90001,-118.2437,34.0522,def456,login
 medium,user.session.start,def456,2,2024-03-15T08:10:04,SUCCESS,,1001,user,John Doe,john.doe,192.168.1.2,USA,Los Angeles,90001,-118.2437,34.0522,def456,login
